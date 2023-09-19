@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.SCHNITZEL.get());
                         pOutput.accept(ModItems.SCHNITZEL_RAW.get());
+                        pOutput.accept(ModItems.FLEISCHKLOPFER.get());
                     })
                     .build());
     public static void register(IEventBus eventBus)

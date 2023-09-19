@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "schnitzelmod:schnitzel",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "schnitzelmod:schnitzel_raw",
+    "count": 1
+  }
+}
