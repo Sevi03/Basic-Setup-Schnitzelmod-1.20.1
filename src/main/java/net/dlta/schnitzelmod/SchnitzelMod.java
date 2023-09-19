@@ -29,8 +29,10 @@ public class SchnitzelMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // Creative tab registration
         ModCreativeModeTabs.register(modEventBus);
 
+        // Items registration
         ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
