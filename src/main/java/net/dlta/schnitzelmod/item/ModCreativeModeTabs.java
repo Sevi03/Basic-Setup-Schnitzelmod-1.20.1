@@ -20,6 +20,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SCHNITZEL.get());
                         pOutput.accept(ModItems.SCHNITZEL_RAW.get());
                         pOutput.accept(ModItems.FLEISCHKLOPFER.get());
+                        pOutput.accept(ModItems.REIBE.get());
+                        pOutput.accept(ModItems.SEMMELBROESEL.get());
                     })
                     .build());
     public static void register(IEventBus eventBus)
