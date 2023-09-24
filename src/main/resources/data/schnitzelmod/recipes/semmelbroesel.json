@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+    [
+      "   ",
+      " #*",
+      "   "
+    ],
+  "key":
+    {
+      "#":
+        {
+          "item": "schnitzelmod:reibe"
+        },
+      "*":
+        {
+          "item": "minecraft:bread"
+        }
+    },
+  "result":
+    {
+      "item": "schnitzelmod:semmelbroesel"
+    }
+ }
