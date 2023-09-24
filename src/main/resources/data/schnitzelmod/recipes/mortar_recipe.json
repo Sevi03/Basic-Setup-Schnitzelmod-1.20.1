@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+    [
+      "  *",
+      " # ",
+      "   "
+    ],
+  "key":
+    {
+      "#":
+        {
+          "item": "minecraft:bowl"
+        },
+      "*":
+        {
+          "item": "minecraft:iron_ingot"
+        }
+    },
+  "result":
+    {
+      "item": "schnitzelmod:mortar"
+    }
+ }
