@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "schnitzelmod:mortar",
+      "count": 1
+    },
+    {
+      "item": "minecraft:wheat",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "schnitzelmod:flour_wheat",
+    "count": 1
+  }
+}
