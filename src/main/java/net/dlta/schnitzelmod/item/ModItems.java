@@ -20,7 +20,13 @@ public class ModItems {
     public static final RegistryObject<Item> SEMMELBROESEL =
             ITEMS.register("semmelbroesel", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> FLOUR_WHEAT =
+            ITEMS.register("flour_wheat", () -> new Item(new Item.Properties()));
+
     // TODO: add crafting durability
+
+    public static final RegistryObject<Item> MORTAR =
+            ITEMS.register("mortar", () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> FLEISCHKLOPFER =
             ITEMS.register("fleischklopfer", () -> new Item(new Item.Properties()));

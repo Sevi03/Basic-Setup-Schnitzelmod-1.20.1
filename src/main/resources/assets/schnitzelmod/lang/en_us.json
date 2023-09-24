@@ -4,6 +4,8 @@
   "item.schnitzelmod.fleischklopfer": "Fleischklopfer",
   "item.schnitzelmod.reibe": "Reibe",
   "item.schnitzelmod.semmelbroesel": "Semmelbrösel",
+  "item.schnitzelmod.flour_wheat": "Weizenmehl",
+  "item.schnitzelmod.mortar" : "Mörser",
 
   "creativetab.schnitzel_tab": "Schnitzel Mod"
 }
