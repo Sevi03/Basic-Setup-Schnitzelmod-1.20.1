@@ -19,4 +19,5 @@ public class ModLootModifiers {
         LOOT_MODIFIER_SERIALIZERS.register(eventBus);
     }
 
+
 }
