@@ -25,6 +25,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SEMMELBROESEL.get());
                         pOutput.accept(ModItems.FLOUR_WHEAT.get());
                         pOutput.accept(ModItems.MORTAR.get());
+                        pOutput.accept(ModItems.UNFIRED_PLATE.get());
+                        pOutput.accept(ModItems.PLATE.get());
                     })
                     .build());
     public static void register(IEventBus eventBus)
