@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MORTAR.get());
                         pOutput.accept(ModItems.UNFIRED_PLATE.get());
                         pOutput.accept(ModItems.PLATE.get());
+                        pOutput.accept(ModItems.PORK_HAMMERED.get());
+                        pOutput.accept(ModItems.PORK_FLOUR.get());
                     })
                     .build());
     public static void register(IEventBus eventBus)

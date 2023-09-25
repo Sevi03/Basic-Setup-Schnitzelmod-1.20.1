@@ -29,6 +29,12 @@ public class ModItems {
     public static final RegistryObject<Item> PLATE =
             ITEMS.register("plate", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PORK_HAMMERED =
+            ITEMS.register("pork_hammered", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PORK_FLOUR =
+            ITEMS.register("pork_flour", () -> new Item(new Item.Properties()));
+
     // TODO: add crafting durability
 
     public static final RegistryObject<Item> MORTAR =
