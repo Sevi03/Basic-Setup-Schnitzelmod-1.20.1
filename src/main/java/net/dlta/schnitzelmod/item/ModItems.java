@@ -23,6 +23,12 @@ public class ModItems {
     public static final RegistryObject<Item> FLOUR_WHEAT =
             ITEMS.register("flour_wheat", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> UNFIRED_PLATE =
+            ITEMS.register("unfired_plate", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PLATE =
+            ITEMS.register("plate", () -> new Item(new Item.Properties()));
+
     // TODO: add crafting durability
 
     public static final RegistryObject<Item> MORTAR =

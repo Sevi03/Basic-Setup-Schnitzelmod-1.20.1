@@ -6,6 +6,8 @@
   "item.schnitzelmod.semmelbroesel": "Semmelbrösel",
   "item.schnitzelmod.flour_wheat": "Weizenmehl",
   "item.schnitzelmod.mortar" : "Mörser",
+  "item.schnitzelmod.unfired_plate" : "ungebrannter Teller",
+  "item.schnitzelmod.plate" : "Teller",
 
   "creativetab.schnitzel_tab": "Schnitzel Mod"
 }
