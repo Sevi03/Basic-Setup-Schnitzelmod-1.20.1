@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "schnitzelmod:block/plate_block"    },
+    "facing=east" : { "model":  "schnitzelmod:block/plate_block", "y":  90},
+    "facing=south" : { "model":  "schnitzelmod:block/plate_block", "y":  180},
+    "facing=west" : { "model":  "schnitzelmod:block/plate_block", "y":  270}
+  }
+}

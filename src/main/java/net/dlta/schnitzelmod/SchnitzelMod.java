@@ -1,9 +1,12 @@
 package net.dlta.schnitzelmod;
 
 import com.mojang.logging.LogUtils;
+import net.dlta.schnitzelmod.block.ModBlocks;
+import net.dlta.schnitzelmod.block.custom.BlockEntities;
 import net.dlta.schnitzelmod.item.ModCreativeModeTabs;
 import net.dlta.schnitzelmod.item.ModItems;
 import net.dlta.schnitzelmod.loot.ModLootModifiers;
+import net.dlta.schnitzelmod.block.custom.BlockEntities;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -36,6 +39,9 @@ public class SchnitzelMod
         // Items registration
         ModItems.register(modEventBus);
 
+        ModBlocks.register(modEventBus);
+
+        BlockEntities.register(modEventBus);
         // registers Modified Loot
         ModLootModifiers.register(modEventBus);
 
@@ -47,6 +53,7 @@ public class SchnitzelMod
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
+
 
     }
 

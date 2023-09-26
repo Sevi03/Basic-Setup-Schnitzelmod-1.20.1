@@ -10,6 +10,10 @@
   "item.schnitzelmod.plate" : "Teller",
   "item.schnitzelmod.pork_hammered" : "Geklopftes Schweinefleisch",
   "item.schnitzelmod.pork_flour" : "Eingemehltes Schweinefleisch",
+  "item.schnitzelmod.pork_egg" : "Bestrichenes Schweinefleisch",
+
+  "block.schnitzelmod.plate_block" : "Platzierbarer Teller",
+
 
   "creativetab.schnitzel_tab": "Schnitzel Mod"
 }
