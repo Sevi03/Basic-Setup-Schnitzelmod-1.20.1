@@ -1,0 +1,9 @@
+
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "schnitzelmod:block/plate_block_front",
+    "side": "schnitzelmod:block/plate_block",
+    "top": "schnitzelmod:block/plate_block"
+  }
+}

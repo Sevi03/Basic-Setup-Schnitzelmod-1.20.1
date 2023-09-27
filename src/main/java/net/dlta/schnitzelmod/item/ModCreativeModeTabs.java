@@ -1,6 +1,7 @@
 package net.dlta.schnitzelmod.item;
 
 import net.dlta.schnitzelmod.SchnitzelMod;
+import net.dlta.schnitzelmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,6 +28,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MORTAR.get());
                         pOutput.accept(ModItems.UNFIRED_PLATE.get());
                         pOutput.accept(ModItems.PLATE.get());
+                        pOutput.accept(ModItems.PORK_HAMMERED.get());
+                        pOutput.accept(ModItems.PORK_FLOUR.get());
+                        pOutput.accept(ModItems.PORK_EGG.get());
+
+                        //Blocks
+                        pOutput.accept(ModBlocks.PLATE_BLOCK.get());
                     })
                     .build());
     public static void register(IEventBus eventBus)

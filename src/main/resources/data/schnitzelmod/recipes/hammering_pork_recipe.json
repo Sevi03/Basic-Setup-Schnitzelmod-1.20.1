@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "schnitzelmod:fleischklopfer",
+      "count": 1
+    },
+    {
+      "item": "minecraft:porkchop",
+      "count": 1
+    }
+  ],
+  "result": {
+    "item": "schnitzelmod:pork_hammered",
+    "count": 1
+  }
+}
