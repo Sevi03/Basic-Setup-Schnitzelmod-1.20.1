@@ -14,7 +14,7 @@ public class BlockEntities {
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, SchnitzelMod.MOD_ID);
 
     public static final RegistryObject<BlockEntityType<PlateBlockEntity>> PLATE_BLOCK_ENTITY =
-            BLOCK_ENTITIES.register("plate_block_entity",
+            BLOCK_ENTITIES.register("plate_block",
                     () -> BlockEntityType.Builder.of(PlateBlockEntity::new, ModBlocks.PLATE_BLOCK.get())
                             .build(null));
 

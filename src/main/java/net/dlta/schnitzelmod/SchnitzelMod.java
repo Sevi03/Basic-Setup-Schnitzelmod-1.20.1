@@ -7,6 +7,8 @@ import net.dlta.schnitzelmod.item.ModCreativeModeTabs;
 import net.dlta.schnitzelmod.item.ModItems;
 import net.dlta.schnitzelmod.loot.ModLootModifiers;
 import net.dlta.schnitzelmod.block.custom.BlockEntities;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
